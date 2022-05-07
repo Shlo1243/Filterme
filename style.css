@@ -1,0 +1,26 @@
+body{
+    background-image:url("https://th.bing.com/th/id/OIP.jDgzMkgcu8DfGpyVBCqb1gHaE8?pid=ImgDet&rs=1");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    font-family: 'Satisfy', cursive;
+}
+#b1{
+    font-family: 'Satisfy', cursive;
+    background-color:blanchedalmond;
+}
+#h1{
+    font-family: 'Satisfy', cursive;
+    color:whitesmoke;
+}
+canvas{
+    animation-name:RGB;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes RGB{
+    from{box-shadow:5px 5px 38px red;}
+    to{box-shadow:5px 5px 38px blue;}
+}
